@@ -1,7 +1,7 @@
 require('babel-register')
 require('babel-polyfill')
 
-require('./books/superman.js')
+require('./books/children-literature.js')
 
 process.on('unhandledRejection', (reason, promise) => {
   console.error('unhandledRejection', reason, promise)
